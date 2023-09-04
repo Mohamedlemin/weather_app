@@ -1,10 +1,10 @@
 
-import 'package:weather/weather/data/model/Weather.dart';
-import 'package:weather/weather/data/repository/weather_repository.dart';
+import 'package:weather/weather/domain/entities/Weather.dart';
+import 'package:weather/weather/domain/repository/base_weather_repository.dart';
 
 class GetWeatherByCountry{
 
-  final WeatherRepository repository;
+  final BaseWeatherRepository repository;
 
   GetWeatherByCountry(this.repository);
 
